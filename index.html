@@ -1,14 +1,58 @@
----
-layout: default
-title: jhermann's github pages
----
+<!DOCTYPE html>
+<html>
 
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="jhermann.github.io : Beware of Grumpy Old Coder!" />
 
-<h1>{{ page.title }}</h1>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-{% for post in site.posts %}
+    <title>jhermann.github.io</title>
+  </head>
 
-    {{ post.date | date: "%B %e, %Y" }}
-    <a href="{{ post.url }}">{{ post.title }}</a>
+  <body>
 
-{% endfor %}
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jhermann">View on GitHub</a>
+
+          <h1 id="project_title">jhermann.github.io</h1>
+          <h2 id="project_tagline">Beware of Grumpy Old Coder!</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <hr><p>layout: default</p>
+
+<h2>
+<a name="title-jhermanns-github-pages" class="anchor" href="#title-jhermanns-github-pages"><span class="octicon octicon-link"></span></a>title: jhermann's github pages</h2>
+
+<h1>
+<a name="-pagetitle-" class="anchor" href="#-pagetitle-"><span class="octicon octicon-link"></span></a>{{ page.title }}</h1>
+
+<p>{% for post in site.posts %}</p>
+
+<pre><code>{{ post.date | date: "%B %e, %Y" }}
+&lt;a href="{{ post.url }}"&gt;{{ post.title }}&lt;/a&gt;
+</code></pre>
+
+<p>{% endfor %}</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
