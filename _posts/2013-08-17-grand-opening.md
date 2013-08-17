@@ -6,6 +6,7 @@ categories:
 tags:
     - how.to
     - github
+    - jekyll
 published: true
 ---
 
