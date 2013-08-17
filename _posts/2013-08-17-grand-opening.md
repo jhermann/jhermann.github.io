@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Grand Opening
+abstract: How I set up my github pages…
 categories:
     - documentation
 tags:
