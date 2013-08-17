@@ -9,7 +9,7 @@ tags:
 published: true
 ---
 
-### {{ title }}
+### Grand Opening
 
 Well, this was moderately easy, by combining WDW's 
 [jekyll-boilerplate](https://github.com/web-design-weekly/jekyll-boilerplate)
