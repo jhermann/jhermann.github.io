@@ -49,3 +49,19 @@ jekyll serve --watch >jekyll.log 2>&1 &
 Now, just save any changes to your posts or layouts, and then reload the instantly rendered result
 in your browser, pointed at [http://localhost:4000/](http://localhost:4000/).
 
+
+#### Further reading
+
+**Tutorials and How-Tos**
+
+* [Quickly publish beautiful pages for you and your projects](http://pages.github.com/)
+  * [Creating Project Pages manually](https://help.github.com/articles/creating-project-pages-manually)
+  * [Creating Pages with the automatic generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator)
+* [Getting to Know GitHub Pages: Static Project Pages, Fast](http://webdesign.tutsplus.com/tutorials/applications/getting-to-know-github-pages-static-project-pages-fast/)
+
+**Tools**
+
+* [Jekyll — Simple blog-aware static sites](http://jekyllrb.com/)
+* [Zero to Hosted Jekyll Blog in 3 Minutes](http://jekyllbootstrap.com/)
+* [Helpers for hosting python projects on GitHub](https://github.com/dinoboff/github-tools/)
+
