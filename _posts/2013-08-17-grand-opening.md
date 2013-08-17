@@ -15,7 +15,7 @@ Here's a rough outline of the necessary steps:
 * `git pull` the theme you just saved.
 * Merge the new `index.html` with `_layouts/default.html` (i.e. copy the contents, and insert the existing template markup at the appropriate places).
 * Restore the `index.html` saved from `jekyll-boilerplate`.
-* Change `images` and `stylesheets` URLs to be server-absolute, else blog posts won't render correctly. This was at least necessary for the theme I chose, and might not aplly to others.
+* Change `images` and `stylesheets` URLs to be server-absolute, else blog posts won't render correctly. This was at least necessary for the theme I chose, and might not apply to others.
 
 And then what you see here is what you'll get.
 
