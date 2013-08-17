@@ -1,55 +1,50 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset='utf-8' />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="description" content="{{ page.title }}" />
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="{{ page.title }}" />
+        <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="http://jhermann.github.io/stylesheets/stylesheet.css">
+        <title>{{ page.title }} — jhermann.github.io</title>
+    </head>
 
-    <title>{{ page.title }} — jhermann.github.io</title>
-  </head>
+    <body>
+        <!-- HEADER -->
+        <div id="header_wrap" class="outer">
+            <header class="inner">
+                <a id="forkme_banner" href="https://github.com/jhermann">View on GitHub</a>
 
-  <body>
+                <a name="top">
+                    <a id="logo" href="/">&nbsp;</a>
+                    <h1 id="project_title">{{ page.title }}</h1>
+                    <h2 id="project_tagline">{{ page.tagline }}</h2>
+                </a>
+            </header>
+        </div>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jhermann">View on GitHub</a>
+        <!-- MAIN CONTENT -->
+        <div id="main_content_wrap" class="outer">
+            <section id="main_content" class="inner">
+                {{ content }}
+            </section>
+        </div>
 
-          <a name="top">
-              <h1 id="project_title">{{ page.title }}</h1>
-              <h2 id="project_tagline">{{ page.tagline }}</h2>
-          </a>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-
-        {{ content }}
-
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>
-            <a href="/"><b>⌂</b> Home</a>
-            &nbsp; | &nbsp;
-            <a href="#top"><b>⌅</b> Top</a>
-            &nbsp; | &nbsp;
-            <b>☻</b> <a href="https://www.ohloh.net/accounts/jhermann"><span style="color:rgb(232, 109, 31);">O</span>hloh</a>
-            &nbsp; | &nbsp;
-            <b>✍</b> Published with <a href="http://pages.github.com">GitHub Pages</a>
-                at {{ site.time | date: "%Y-%m-%d %H:%M" }}
-        </p>
-      </footer>
-    </div>
-
-  </body>
+        <!-- FOOTER  -->
+        <div id="footer_wrap" class="outer">
+            <footer class="inner">
+                <p>
+                    <a href="/"><b>⌂</b> Home</a>
+                    &nbsp; | &nbsp;
+                    <a href="#top"><b>⌅</b> Top</a>
+                    &nbsp; | &nbsp;
+                    <b>☻</b> <a href="https://www.ohloh.net/accounts/jhermann"><span style="color:rgb(232, 109, 31);">O</span>hloh</a>
+                    &nbsp; | &nbsp;
+                    <b>✍</b> Published with <a href="http://pages.github.com">GitHub Pages</a>
+                        at {{ site.time | date: "%Y-%m-%d %H:%M" }}
+                </p>
+            </footer>
+        </div>
+    </body>
 </html>
