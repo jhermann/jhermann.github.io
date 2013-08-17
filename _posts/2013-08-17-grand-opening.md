@@ -1,6 +1,6 @@
 ---
 layout: post
-post_title: Grand Opening
+title: Grand Opening
 ---
 
 Well, this was moderately easy, by combining WDW's 
