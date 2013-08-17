@@ -1,7 +1,6 @@
 ---
 layout: post
-post:
-    title: Grand Opening
+post_title: Grand Opening
 ---
 
 Well, this was moderately easy, by combining WDW's 
@@ -9,6 +8,7 @@ Well, this was moderately easy, by combining WDW's
 project template for Jekyll with one of the github standard themes.
 
 Here's a rough outline of the necessary steps:
+
 * Copy `jekyll-boilerplate` into your `»accountname«.github.io` repository.
 * Save the content of `index.html`.
 * *Overwrite* this with one of the standard templates, as [described here](https://help.github.com/articles/creating-pages-with-the-automatic-generator).
