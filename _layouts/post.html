@@ -3,14 +3,14 @@ layout: default
 tagline: jhermann's github blog
 ---
 
-<h3>☛ {{title}} / {{page.title}} / {{post.title}}</h3>
+<h3>☛&nbsp; <em>{{ page.date | date: "%B %e, %Y" }}</em> &nbsp; ❝{{page.title}}❞</h3>
 
 <p>
-Categorized {% for category in page.categories %}
+Categorized &nbsp; {% for category in page.categories %}
     <em>{{ category }}</em> &nbsp;
 {% endfor %}
-| &nbsp;
-Tagged {% for tag in page.tags %}
+≀ &nbsp;
+Tagged &nbsp; {% for tag in page.tags %}
     <em>{{ tag }}</em> &nbsp;
 {% endfor %}
 </p>
