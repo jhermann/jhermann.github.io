@@ -1,7 +1,15 @@
 ---
 layout: post
 title: Grand Opening
+categories:
+    - documentation
+tags:
+    - how.to
+    - github
+published: true
 ---
+
+### {{ title }}
 
 Well, this was moderately easy, by combining WDW's 
 [jekyll-boilerplate](https://github.com/web-design-weekly/jekyll-boilerplate)
