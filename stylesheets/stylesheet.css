@@ -200,12 +200,7 @@ dl dt {
 
 dl dd {
   padding-left: 20px;
-  font-style: italic;
-}
-
-dl p {
-  padding-left: 20px;
-  font-style: italic;
+  font-size: 90%;
 }
 
 hr {
