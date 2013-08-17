@@ -4,5 +4,16 @@ tagline: jhermann's github blog
 ---
 
 <h3>☛ {{title}} / {{page.title}} / {{post.title}}</h3>
+
+<p>
+Categorized {% for category in page.categories %}
+    <em>{{ category }}</em> &nbsp;
+{% endfor %}
+| &nbsp;
+Tagged {% for tag in page.tags %}
+    <em>{{ tag }}</em> &nbsp;
+{% endfor %}
+</p>
+
 {{ content }}
 
