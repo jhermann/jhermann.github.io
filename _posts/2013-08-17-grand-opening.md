@@ -9,7 +9,7 @@ tags:
 published: true
 ---
 
-### Grand Opening
+#### Setting up my github pages
 
 Well, this was moderately easy, by combining WDW's 
 [jekyll-boilerplate](https://github.com/web-design-weekly/jekyll-boilerplate)
@@ -26,4 +26,25 @@ Here's a rough outline of the necessary steps:
 * Change `images` and `stylesheets` URLs to be server-absolute, else blog posts won't render correctly. This was at least necessary for the theme I chose, and might not apply to others.
 
 And then what you see here is what you'll get.
+
+
+#### Locally serving your site
+
+To avoid the up to 10 minute delay of the github publishing queue, you can install
+Jekyll locally as `root`:
+
+{% highlight sh %}
+apt-get install ruby1.9.1 # on Ubuntu 12.04, your distro may vary
+gem install jekyll
+gem install rdiscount
+{% endhighlight %}
+
+Then within your git working directory, start an auto-refreshing Jekyll server process using…
+
+{% highlight sh %}
+jekyll serve --watch >jekyll.log 2>&1 &
+{% endhighlight %}
+
+Now, just save any changes to your posts or layouts, and then reload the instantly rendered result
+in your browser, pointed at [http://localhost:4000/](http://localhost:4000/).
 
