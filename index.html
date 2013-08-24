@@ -42,12 +42,18 @@ tagline: Beware of Grumpy Old Coder!
 
 
 <h3>Blog Posts</h3>
+<dl>
 {% for post in site.posts %}
-
-    <div class="post">
-        <b>☛</b>&nbsp; <span class="date">{{ post.date | date: "%B %e, %Y" }}</span> &nbsp;
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        — {{ post.abstract }}
-    </div>
+    <dt>
+        <div class="post">
+            <b>☛</b>&nbsp; <span class="date">{{ post.date | date: "%B %e, %Y" }}</span> &nbsp;
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+    </dt>
+    <dd>
+        {{ post.abstract }}
+    </dd>
 
 {% endfor %}
+</dl>
+
