@@ -29,8 +29,9 @@ case "$1" in
         else
             jekyll serve --watch >jekyll.log 2>&1 &
             disown
-            ( sleep .5 && xdg-open "http://localhost:4000/" ) &
+            sleep .5
         fi
+        xdg-open "http://localhost:4000/"
     ;;
     *)
         echo "usage: $(basename $0) start|stop"
