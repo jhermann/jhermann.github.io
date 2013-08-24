@@ -47,6 +47,9 @@ Then within your git working directory, start an auto-refreshing Jekyll server p
 jekyll serve --watch >jekyll.log 2>&1 &
 {% endhighlight %}
 
+Or even better, copy my [jekyll-serve.sh](https://github.com/jhermann/jhermann.github.io/blob/master/jekyll-serve.sh) script
+to your project, and just call `./jekyll-serve.sh start`.
+
 Now, just save any changes to your posts or layouts, and then reload the instantly rendered result
 in your browser, pointed at [http://localhost:4000/](http://localhost:4000/).
 
