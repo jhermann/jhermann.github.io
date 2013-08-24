@@ -16,13 +16,6 @@ jekyll_running() {
 
 
 case "$1" in
-    stop)
-        if jekyll_running; then
-            kill $jekyll_pid
-        else
-            echo "No running Jekyll process found for $projectdir"
-        fi
-        ;;
     start)
         if jekyll_running; then
             echo "Jekyll already running for $projectdir [PID=$jekyll_pid]"
@@ -32,10 +25,17 @@ case "$1" in
             sleep .5
         fi
         xdg-open "http://localhost:4000/"
-    ;;
+        ;;
+    stop)
+        if jekyll_running; then
+            kill $jekyll_pid
+        else
+            echo "No running Jekyll process found for $projectdir"
+        fi
+        ;;
     *)
         echo "usage: $(basename $0) start|stop"
         exit 1
-    ;;
+        ;;
 esac
 
