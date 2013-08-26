@@ -1,6 +1,7 @@
 #! /bin/bash
 set -e
 projectdir=$(cd $(dirname $0) && pwd)
+jekyll_url="http://localhost:4000/"
 
 jekyll_running() {
     jekyll_pid=0
@@ -22,9 +23,14 @@ case "$1" in
         else
             jekyll serve --watch >jekyll.log 2>&1 &
             disown
-            sleep .5
+            for i in $(seq 50); do
+                echo -n "."
+                sleep .1
+                curl -sf "$jekyll_url" >/dev/null && echo -n " Jekyll up and running!" && break || :
+            done
+            echo
         fi
-        xdg-open "http://localhost:4000/"
+        xdg-open "$jekyll_url"
         ;;
     stop)
         if jekyll_running; then
