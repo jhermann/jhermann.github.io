@@ -288,6 +288,13 @@ h3 .date {
     margin: 0 auto;
 }
 
+.project-logo {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 0.5em 5px 0.5em 1.2em;
+}
+
 #forkme_banner {
     display: block;
     position: absolute;
