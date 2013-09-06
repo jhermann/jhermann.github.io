@@ -23,9 +23,13 @@ You can register your site and create a new account in one go, by surfing to the
 1. In step 2, choose “Universal Code” as the platform. Copy the code snippets to your site code, and push the changes to publish them.
 1. Step 3 will present you with your new site's administration panel.
 
+#### Layout & Markup Changes
+
 My [first attempt](https://github.com/jhermann/jhermann.github.io/commit/923991466108bade35843bacce91016cbe9ee661)
 was quite successful, but I made an error with the comment count integration. You have to actually 
 [create additional links](https://github.com/jhermann/jhermann.github.io/commit/0bdfabb5f0e82d1fa8d67604899e9d6a0ec75547)
 where Disqus can insert the current counters. I also did a little styling in that second changeset.
 
-And that was it, see below for the result.
+Finally, I also
+[added the post counter at the top of each post](https://github.com/jhermann/jhermann.github.io/commit/467b2fdb0774d53125574b57b681187168874332),
+so you can easily skip to the comment section. And that was it, see below for the result.
