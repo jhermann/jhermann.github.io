@@ -72,7 +72,8 @@ tagline: Beware of Grumpy Old Coder!
     <dt>
         <div class="post">
             <b>☛</b>&nbsp; <span class="date">{{ post.date | date: "%B %e, %Y" }}</span> &nbsp;
-            <a href="{{ post.url }}#disqus_thread">{{ post.title }}</a>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a class="disqus" href="{{ post.url }}#disqus_thread"></a>
         </div>
     </dt>
     <dd>
