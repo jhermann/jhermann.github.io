@@ -294,7 +294,7 @@ a.disqus {
     display: inline-block;
     vertical-align: baseline;
     margin: 2px 0.6em;
-    padding: 2px 0.4em;
+    padding: 4px 0.4em 2px 0.4em;
     outline: medium none;
     cursor: pointer;
     text-align: center;
