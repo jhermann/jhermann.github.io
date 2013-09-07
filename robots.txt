@@ -1,0 +1,11 @@
+# any specific rules must appear BEFORE the final rule matching *
+
+User-agent: 360Spider
+User-agent: AskTbPTV
+User-agent: Baiduspider
+User-agent: Sosospider
+Disallow: /
+
+User-agent: *
+Crawl-delay: 40
+
