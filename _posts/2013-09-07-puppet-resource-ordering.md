@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Puppet Show — Quick bonding of resources
-abstract: Painless modelling of simple dependencies between resources, avoiding the somewhat tedious and chatty require and notify attributes.
+abstract: Shows how to do painless modelling of simple dependencies between Puppet resources, avoiding the somewhat tedious and chatty require and notify attributes.
 categories:
     - devops
 tags:
