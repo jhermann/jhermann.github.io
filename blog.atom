@@ -18,7 +18,7 @@ layout: atom
     <entry>
         <title>{{ post.title | xml_escape }}</title>
         <link href="http://jhermann.github.io/{{ post.url }}"/>
-        <updated>{{ site.time | date_to_xmlschema }}</updated>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>tag:jhermann.github.io,{{ post.id }}</id>
         {% for category in post.categories %}<category term="{{ category | xml_escape }}"/>{% endfor %}
         <summary type="html">
