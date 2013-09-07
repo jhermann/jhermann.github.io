@@ -1,0 +1,28 @@
+---
+layout: atom
+---
+    <link href="http://jhermann.github.io/blog.atom" rel="self"/>
+    <link href="http://jhermann.github.io/"/>
+    <icon>http://jhermann.github.io/images/doh32.png</icon>
+    <id>http://jhermann.github.io/blog.atom</id>
+    <title>jhermann's github blog</title>
+    <subtitle>Beware of Grumpy Old Coder!</subtitle>
+    <author>
+        <name>Jürgen Hermann</name>
+        <email>jh@web.de</email>
+        <uri>http://jhermann.github.io/</uri>
+    </author>
+    <rights>Copyright © 2013 Jürgen Hermann</rights>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+{% for post in site.posts %}
+    <entry>
+        <title>{{ post.title | xml_escape }}</title>
+        <link href="http://jhermann.github.io/{{ post.url }}"/>
+        <updated>{{ site.time | date_to_xmlschema }}</updated>
+        <id>tag:jhermann.github.io,{{ post.id }}</id>
+        {% for category in post.categories %}<category term="{{ category | xml_escape }}"/>{% endfor %}
+        <summary type="html">
+            {{ post.abstract | xml_escape }}
+        </summary>
+    </entry>
+{% endfor %}
