@@ -266,13 +266,7 @@ h3 .date {
     color: #777;
 }
 
-#identicon {
-    float: right;
-    border: 0px;
-    margin-left: 1em;
-}
-
-#ohloh-profile {
+#identicon, #ohloh-profile, #coderwall {
     float: right;
     border: 0px;
     margin-left: 1em;
