@@ -13,7 +13,8 @@ title: jhermann's GH pages
 # 👤️ About Me
 
 <img src="https://avatars3.githubusercontent.com/u/1068245?s=80" alt="Avatar" style="float: left; padding-right:1rem; padding-bottom:.5rem;">
-📝 [Jürgen Hermann](https://twitter.com/jhermann_) · 📧 jh@web.de
+
+[J&uuml;rgen Hermann](https://twitter.com/jhermann_) · 📧 jh@web.de
 
 🐍 A long long time ago, I started with Python 1.5 at *web.de*,
 founded the *MoinMoin* wiki project shortly thereafter, and am now
