@@ -1,4 +1,9 @@
-# 🌐 Contents
+---
+layout: default
+title: jhermann's GH pages
+---
+# 🌐 Contents-# Jürgen Hermann's GitHub Pages
+
 
 📝 Read my [blog](https://jhermann.github.io/blog/) about Python, Jupyter(Hub), DevSecOps, Software Architecture, Systems Design, Distributed Systems. Or subscribe to its [Atom feed](https://jhermann.github.io/blog/feed.xml).
 
