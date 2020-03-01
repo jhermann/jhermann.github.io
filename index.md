@@ -7,7 +7,7 @@ title: jhermann's GH pages
 
 📝 Read my [blog](https://jhermann.github.io/blog/) about Python, Jupyter(Hub), DevSecOps, Software Architecture, Systems Design, Distributed Systems. Or subscribe to its [Atom feed](https://jhermann.github.io/blog/feed.xml).
 
-A list of my 👨‍🏫 [Talks & Presentations](https://jhermann.github.io/blog/how-to/know-how/2020/02/22/talks+presentations.html) on the web can be found there, too.
+👨‍🏫 A list of my [Talks & Presentations](https://jhermann.github.io/blog/how-to/know-how/2020/02/22/talks+presentations.html) on the web can be found there, too.
 
 
 # 👤️ About Me
