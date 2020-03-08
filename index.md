@@ -4,10 +4,11 @@ title: jhermann's GH pages
 ---
 # 🌐 Contents
 
-
 📝 Read my [blog](https://jhermann.github.io/blog/) about Python, Jupyter(Hub), DevSecOps, Software Architecture, Systems Design, Distributed Systems. Or subscribe to its [Atom feed](https://jhermann.github.io/blog/feed.xml).
 
 👨‍🏫 A list of my [Talks & Presentations](https://jhermann.github.io/blog/how-to/know-how/2020/02/22/talks+presentations.html) on the web can be found there, too.
+
+🧩 The [guided tour of my (software) projects](https://jhermann.github.io/blog/misc/development/2020/02/21/projects_guided_tour.html) provides an overview of the GitHub projects I maintain. They're mostly using Python or are Python-related, covering topics like data science, Jupyter(Hub), software design & architecture, Debian packaging, and using Docker as a developer.
 
 
 # 👤️ About Me
