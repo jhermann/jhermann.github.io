@@ -2,6 +2,13 @@
 
 Refer to my [first blog post](http://jhermann.github.io/documentation/2013/08/17/grand-opening.html) done here on how this works.
 
+Related repositories:
+
+* [about-me](https://github.com/jhermann/about-me): GH project showcase, including social profile links, and (technical) topics of interest.
+* [blog](https://github.com/jhermann/blog): A blog about Python · Jupyter(Hub) · DevSecOps · Software Architecture · Systems Design · Distributed Systems.
+* [observatory](https://github.com/jhermann/observatory): My GH stars organized by topic.
+
+
 ## Jekyll Boilerplate ##
 
 Jekyll is rad! It’s a simple, blog aware, static site generator built in Ruby. It takes a template directory, runs it through Textile or Markdown and Liquid converters, and spits out a complete, static website. Boom!
